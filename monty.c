@@ -76,8 +76,8 @@ void find_op(FILE *fd)
 {
 	int line = 1;
 	int blah = 0, x = 0;
-	char *opcode;
-	size_t length;
+	char *opcode = NULL;
+	size_t length = 0;
 	stack_t *stack = NULL;
 
 	while (line)
