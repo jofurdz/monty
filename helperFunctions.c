@@ -54,7 +54,9 @@ void errorEXIT(stack_t **stack, unsigned int line_num, char *opcode, FILE *fd)
  * add_node - adds a new node to the start of a list
  *
  * @head: pointer to the list
- * @str: str to be listed
+ * @n: element
+ * @opcode: opcode
+ * @fd: file
  *
  *Return: the address of new element
  */

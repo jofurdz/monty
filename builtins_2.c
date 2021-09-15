@@ -6,8 +6,8 @@
  * @stack: list
  * @line_num: line number
  * @opcode: opcode
- * @fd: file 
- * 
+ * @fd: file
+ *
  */
 
 void OPpop(stack_t **stack, unsigned int line_num, char *opcode, FILE *fd)
@@ -47,10 +47,13 @@ void OPpop(stack_t **stack, unsigned int line_num, char *opcode, FILE *fd)
 }
 
 /**
- * 
- * 
- * 
- * 
+ * OPadd - implements add
+ *
+ * @stack: list
+ * @line_num: line number
+ * @opcode: opcode
+ * @fd: file
+ *
  */
 
 void OPadd(stack_t **stack, unsigned int line_num, char *opcode, FILE *fd)
@@ -81,9 +84,13 @@ void OPadd(stack_t **stack, unsigned int line_num, char *opcode, FILE *fd)
 }
 
 /**
- * 
- * 
- * 
+ * OPnop - does nothing
+ *
+ * @stack: the list
+ * @line_num: line number
+ * @opcode: opcode
+ * @fd: file
+ *
  */
 
 void OPnop(stack_t **stack, unsigned int line_num, char *opcode, FILE *fd)

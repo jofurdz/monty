@@ -5,7 +5,7 @@
  *
  * @stack: list
  * @line_num: line number
- * @opcode: opcode 
+ * @opcode: opcode
  */
 
 void OPpush(stack_t **stack, unsigned int line_num, char *opcode, FILE *fd)
@@ -45,7 +45,7 @@ void OPpush(stack_t **stack, unsigned int line_num, char *opcode, FILE *fd)
  * @stack: list
  * @line_num: line number
  * @opcode: opcode
- * @fd: file 
+ * @fd: file
  */
 
 void OPpall(stack_t **stack, unsigned int line_num, char *opcode, FILE *fd)
