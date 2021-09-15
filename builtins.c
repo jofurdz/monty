@@ -4,6 +4,7 @@
  * OPpush - implements psuh op
  *
  * @stack: list
+ * @fd: file
  * @line_num: line number
  * @opcode: opcode
  */
@@ -87,6 +88,13 @@ void OPpint(stack_t **stack, unsigned int line_num, char *opcode, FILE *fd)
 	printf("%i\n", temp->n);
 }
 
+/**
+ * OPswap - Implements swap
+ * @stack: the list
+ * @line_num: line number
+ * @opcode: opcode
+ * @fd: file
+ */
 void OPswap(stack_t **stack, unsigned int line_num, char *opcode, FILE *fd)
 {
 	stack_t *temp, *blah;
